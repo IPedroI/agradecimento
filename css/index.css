@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0 !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/body.jpg');
+    font-family: "ubuntu condensed" , sans-serif;
+}
+
+.overlay
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,.3);
+}
+
+.content
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: auto;
+    height: 300px;
+    position: absolute;
+}
+
+.content .logo
+{
+    max-width: 600px;
+    margin: 20px auto 100px;
+}
+
+.content .logo img
+{
+    max-width: 100%;
+}
+
+/*.principal*/
+/*{*/
+    /*text-align: center;*/
+    /*background-size: cover;*/
+    /*background-position: top;*/
+    /*background-repeat: no-repeat;*/
+    /*background-image: url(../imagens/teste.png)*/
+/*}*/
+
+/*.conteudo img*/
+/*{*/
+    /*width: 400px;*/
+    /*height: 150px;*/
+    /*max-width: 90%;*/
+    /*max-height: 90%;*/
+    /*margin: 100px 0 0 0;*/
+/*}*/
+
+/*.title*/
+/*{*/
+    /*color: white;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.title h1*/
+/*{*/
+    /*color: white;*/
+    /*font-size: 30px;*/
+    /*padding: 5px 15px;*/
+    /*border-radius: 30px;*/
+    /*display: inline-block;*/
+    /*border-color: darkorange;*/
+    /*background-color: darkorange;*/
+/*}*/
+
+/*.title a*/
+/*{*/
+    /*color: white;*/
+    /*text-decoration: none !important;*/
+/*}*/
+
+/*.contact*/
+/*{*/
+    /*color: white;*/
+    /*padding: 10px 0;*/
+    /*text-align: center;*/
+    /*background-color: darkorange;*/
+/*}*/
+
+/*.contact .midia*/
+/*{*/
+    /*display: inline-flex;*/
+/*}*/
+
+/*.contact .midia a*/
+/*{*/
+    /*color: white;*/
+    /*text-decoration: none !important;*/
+/*}*/
+
+/*.contact .midia h2*/
+/*{*/
+    /*margin-left: 30px;*/
+/*}*/
+
+/*.contact .midia .facebook*/
+/*{*/
+    /*margin-left: 30px;*/
+    /*border-left: 2px solid yellow;*/
+/*}*/
+
+/*.contact .midia .instagram*/
+/*{*/
+    /*margin-left: 30px;*/
+    /*border-left: 2px solid yellow;*/
+/*}*/
+
+/*.phone*/
+/*{*/
+    /*background-color: #3F3E48;*/
+/*}*/
+
+/*.phone .container*/
+/*{*/
+    /*margin: 0 auto;*/
+    /*max-width: 892px;*/
+/*}*/
+
+/*.phone .container a*/
+/*{*/
+    /*color: white;*/
+    /*font-size: 20px;*/
+    /*text-decoration: none !important;*/
+/*}*/
+
+/*.phone .container h1*/
+/*{*/
+    /*color: white;*/
+/*}*/
+
+/*.phone .container .line-one*/
+/*{*/
+    /*display: inline-flex;*/
+/*}*/
+
+/*.phone .container .line-one img*/
+/*{*/
+    /*height: 90px;*/
+    /*width: 194px;*/
+    /*margin: 0 25px 0 0;*/
+    /*border-right: 5px solid darkorange;*/
+/*}*/
+
+/*.phone .container .line-one .contact-teresopolis,*/
+/*.phone .container .line-one .contact-cf*/
+/*{*/
+    /*width: 194px;*/
+    /*margin: 0 25px 0 0;*/
+    /*border-right: 5px solid darkorange;*/
+/*}*/
+
+/*.phone .container .line-one .contact-mc*/
+/*{*/
+    /*width: 194px;*/
+    /*margin: 0 25px 0 0;*/
+/*}*/
+
+/*.phone .container .line-two*/
+/*{*/
+    /*display: inline-flex;*/
+    /*border-top:5px solid darkorange;*/
+/*}*/
+
+/*.phone .container .line-two .contact-sj,*/
+/*.phone .container .line-two .contact-una,*/
+/*.phone .container .line-two .contact-ec*/
+/*{*/
+    /*width: 194px;*/
+    /*margin: 0 25px 0 0;*/
+    /*border-right: 5px solid darkorange;*/
+/*}*/
+
+
+/*.phone .container .line-two .contact-nf*/
+/*{*/
+    /*width: 194px;*/
+    /*margin: 0 25px 0 0;*/
+/*}*/
