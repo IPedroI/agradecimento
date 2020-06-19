@@ -7,6 +7,7 @@ html, body
 
 body
 {
+    color: #fff;
     margin: 0 !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@ body
     right: 0;
     bottom: 0;
     position: fixed;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.75);
 }
 
 .content
@@ -33,18 +34,70 @@ body
     z-index: 1;
     margin: auto;
     height: 300px;
+    padding: 20px;
     position: absolute;
+    text-align: center;
 }
 
 .content .logo
 {
     max-width: 600px;
-    margin: 20px auto 100px;
+    margin: 0 auto 60px;
 }
 
 .content .logo img
 {
     max-width: 100%;
+}
+
+.content .text-1
+{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .text-2
+{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.content .text-2 p
+{
+    padding: 4px 10px;
+    position: relative;
+    display: inline-block;
+    background-color: orangered;
+}
+
+.content .text-2 p:after,
+.content .text-2 p:before
+{
+    top: 0;
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content .text-2 p:after
+{
+    right: -15px;
+    border-left: 0 solid orangered;
+    border-top: 62px solid orangered;
+    border-bottom: 0 solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.content .text-2 p:before
+{
+    left: -15px;
+    border-top: 0 solid transparent;
+    border-right: 0 solid orangered;
+    border-bottom: 62px solid orangered;
+    border-left: 15px solid transparent;
 }
 
 /*.principal*/
