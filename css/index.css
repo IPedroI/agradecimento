@@ -12,6 +12,7 @@ body
     margin: 0 !important;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center 0;
     background-image: url('../images/body.jpg');
     font-family: "ubuntu condensed" , sans-serif;
 }
@@ -268,4 +269,122 @@ a:visited
 .footer .footer-2 .sub-content .line-2
 {
     border-top: 1px solid yellow;
+}
+
+@media(max-height: 700px)
+{
+    .content
+    {
+        height: auto;
+    }
+
+    .content .logo
+    {
+        margin-bottom: 30px;
+    }
+
+    .content .logo img
+    {
+        width: 300px;
+    }
+
+    .content .text-3
+    {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 767px)
+{
+    body
+    {
+        background-size: 550px;
+    }
+
+    .content
+    {
+        height: auto;
+        bottom: auto;
+        position: relative;
+    }
+
+    .content .text-1
+    {
+        font-size: 20px;
+    }
+
+    .content .text-2
+    {
+        font-size: 22px;
+    }
+
+    .content .text-2 p
+    {
+        padding: 15px 10px;
+    }
+
+    .content .text-2 p:after
+    {
+        border-top-width: 61px;
+    }
+
+    .content .text-2 p:before
+    {
+        border-bottom-width: 61px;
+    }
+
+    .content .text-3
+    {
+        line-height: 26px;
+    }
+
+    .content .text-3 p a
+    {
+        font-size: 28px;
+    }
+
+    .footer
+    {
+        position: relative;
+    }
+
+    .footer .footer-1
+    {
+        margin-top: 0;
+        height: 150px;
+    }
+
+    .footer .footer-1 .sub-content a
+    {
+        font-size: 18px;
+    }
+
+    .footer .footer-1 .sub-content .left,
+    .footer .footer-1 .sub-content .center,
+    .footer .footer-1 .sub-content .right
+    {
+        border: none;
+        text-align: center;
+    }
+
+    .footer .footer-1 .sub-content .center
+    {
+        margin: 10px 0;
+    }
+
+    .footer .footer-2
+    {
+        height: auto;
+    }
+
+    .footer .footer-2 .sub-content .col
+    {
+        height: auto;
+        border: none !important;
+    }
+
+    .footer .footer-2 .sub-content .col img
+    {
+        max-width: 250px;
+    }
 }
