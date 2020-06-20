@@ -187,6 +187,12 @@ a:visited
     color: #505050;
 }
 
+.footer .footer-1 .sub-content a:focus
+{
+    color: white;
+    text-decoration: none;
+}
+
 .footer .footer-2
 {
     padding: 20px;
@@ -227,6 +233,12 @@ a:visited
 .footer .footer-2 .sub-content .col a:hover
 {
     color: #ff5719;
+}
+
+.footer .footer-2 .sub-content .col a:focus
+{
+    color: white;
+    text-decoration: none;
 }
 
 .footer .footer-2 .sub-content .col h2
